@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+
+  db:
+    image: postgres:latest
+    container_name: db
+    environment:
+      POSTGRES_DB: EclipseDb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+    networks:
+      - project-network
+
+  eclipse-api:
+    build:
+      context: .
+      dockerfile: src/EclipseApi.Api/Dockerfile
+    container_name: eclipse-api
+    ports:
+      - "8090:8090"
+    environment:
+      - ConnectionStrings__ElipseDb=Host=db;Database=EclipseDb;Username=postgres;Password=admin
+    depends_on:
+      - db
+    networks:
+      - project-network
+
+networks:
+  project-network:
+    driver: bridge

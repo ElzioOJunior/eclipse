@@ -1,0 +1,95 @@
+﻿# Compiled binary and object files
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Build results
+*.exe
+*.dll
+*.pdb
+*.appx
+*.appxbundle
+*.msi
+*.msix
+*.msixbundle
+*.log
+*.cache
+*.xml
+*.json
+
+# Visual Studio-specific
+.vscode/
+.vs/
+.vscode/
+.launchsettings.json
+
+# DotNet CLI
+*.vspscc
+*.vssscc
+*.ide
+
+# Windows-specific files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Resharper/Code analysis
+_ReSharper*/
+*.[dD]otSettings.user
+
+# Rider IDE
+.idea/
+.idea/*
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Entity Framework migrations
+Migrations/
+
+# Secrets and sensitive information
+secrets.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.old
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+
+# Generated files
+Generated/
+
+# Coverage tool output
+coverage/
+
+# Publish results
+publish/
+
+
+/.vs/TechChallenge
+**/bin/
+**/obj/
+/src/TechChallenge.API/obj/Debug/net8.0/TechChallenge.API.GeneratedMSBuildEditorConfig.editorconfig
