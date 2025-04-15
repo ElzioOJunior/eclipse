@@ -17,22 +17,35 @@ Ids dos usuários para testes:
 
 
 ## Fase 2
-- Segue algumas perguntas para o próximo refinamento ao PO
+
+- Seguem algumas perguntas para o próximo refinamento ao PO
+  
 1 - Teremos algum tipo de controle de horas por tarefa no futuro?
+
 2 - Existe uma necessidade de termos filtros futuramente por tarefas e projetos?
+
 3 - Teremos suporte a múltiplos idiomas e regiões?
+
 4 - Os usuários serão notificados futuramente quando forem atribuidas novas tarefas?
+
 5 - Teremos outros relatórios, como por exemplo, cálculo de horas gastas por usuário, por projeto, % de diferença de horas entre o previsto e executado por cada tarefa, por usuário ou por projeto?
+
 
 ## Fase 3
 
 1 - Adicionar validações em requests, para prevenir de código malioso e possíveis problemas no projeto
+
 2 - Adidionar padrão UnitOfWork para gerenciar as transações com banco de dados.
+
 3 - Monitorar o desempenho e saúde da API via kibana/grafana
+
 4 - Implementação caching para dados frequentemente acessados (ex.: listas de projetos e tarefas)
+
 5 - Implementação pipelines de CI/CD para integração e deploy.
+
 6 - Implementação de logs detalhados, para facilitar a análise e troubleshooting.
-7 - Planejar a evolução para mcroserviços, para maior escabilidade e flexibilidade.
+
+7 - Planejar a evolução para microserviços, para maior escabilidade e flexibilidade.
 
 
 
