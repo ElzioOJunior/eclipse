@@ -5,13 +5,16 @@ Foi utilizado o banco de dados PostgreSQL e versão do .Net Core 8.0
 Usar o comando docker compose up para rodar a aplicação e o banco de dados via docker.
 
 Caso o projeto seja executado via Dokcer, alterar a connection string para --> Host=db;Database=EclipseDb;Username=postgres;Password=admin
+
 Caso rode via Visual Studio, manter --> Host=localhost;Database=EclipseDb;Username=postgres;Password=admin
 
 A migration para montagem do banco é executada automaticamente ao rodar o projeto via classe Program.cs.
 Como não temos crud para usuários, foi criado um Seeder dentro de Program.cs, que inclui 2 usuários para utilização como teste no projeto
 
 Ids dos usuários para testes: 
+
 	650a8ec4-a12b-409d-8118-5ea31bb5a778
+ 
 	dd51de23-ff87-4258-aaf2-5ef506624cd5
 
 
